@@ -28,4 +28,5 @@ echo "输入Hexo初始化目录"
 read inputdir
 mkdir $inputdir ; cd $inputdir ; hexo init
 echo `date`
-echo "安装完成,再见,script by Copyright³(unstartdev)" | exit 0
+echo "安装完成,再见,script by Copyright³(unstartdev)"
+exit 0
