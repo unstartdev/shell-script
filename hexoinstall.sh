@@ -10,7 +10,7 @@ read aNum
 case $aNum in
          1) apt-get install -y curl git-core ; curl -sL https://deb.nodesource.com/setup_6.x | bash - ; apt-get install -y nodejs
          ;;
-         2) sudo apt-get install -y curl git-core ; curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash ; nvm install stable
+         2) curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash ; nvm install stable
          ;;
 esac
 echo "在中国大陆吗？"
